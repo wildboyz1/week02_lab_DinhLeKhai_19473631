@@ -6,8 +6,8 @@ import java.util.Optional;
 public interface RepositoryA<T> {
     boolean them(T t);
     boolean xoa(T t);
-    boolean capNhat(T t);
-    List<T> layDanhsach();
+    boolean capnhat(T t);
+    List<T> layDs();
     Optional<T> laytheoma(Objects ... objects);
 
 }

@@ -13,7 +13,7 @@ public class connectDB {
             Class.forName("\"org.mariadb.jdbc.Driver\"");
             connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/mydb","root","123456");
         } catch (Exception e) {
-            exception.printStackTrace();
+            e.printStackTrace();
         }
     }
 
